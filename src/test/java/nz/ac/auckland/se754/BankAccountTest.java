@@ -4,14 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class MathOperationTest {
-
+public class BankAccountTest {
 
     @Test
-    public void testMax(){
-        assertEquals(20, new MathOperation().max(10,20));
+    public void test(){
+        fail();
     }
-
-
-
 }
